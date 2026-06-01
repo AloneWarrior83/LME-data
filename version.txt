@@ -1,4 +1,4 @@
 LME_database=1
-WagonsWithWeight=3
+WagonsWithWeight=4
 trucks=1
 waiting=1
