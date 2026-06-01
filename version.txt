@@ -1,1 +1,4 @@
-22
+LME_database=1
+WagonsWithWeight=1
+trucks=1
+waiting=1
