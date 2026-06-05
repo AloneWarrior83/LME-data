@@ -5,8 +5,6 @@ cd "C:\Users\HAISB STORE\LME-data"
 for /f "tokens=1,2 delims==" %%a in (version.txt) do set %%a=%%b
 
 :: چک کردن کدوم فایل تغییر کرده
-:: git diff --name-only فقط modified رو میبینه
-:: git status --short هم untracked (فایل های جدید) رو میبینه
 git status --short > changed_files.txt
 
 findstr /i "LME_database.json" changed_files.txt >nul && set /a LME_database=%LME_database%+1
@@ -28,6 +26,4 @@ git add .
 git commit -m "update v%LME_database%-%WagonsWithWeight%-%trucks%-%waiting%"
 git push
 
-echo.
 echo Done! Versions: LME=%LME_database% Wagons=%WagonsWithWeight% Trucks=%trucks% Waiting=%waiting%
-pause
