@@ -7,10 +7,10 @@ for /f "tokens=1,2 delims==" %%a in (version.txt) do set %%a=%%b
 :: چک کردن کدوم فایل تغییر کرده
 git diff --name-only > changed_files.txt
 
-findstr /i "LME_database.xlsx" changed_files.txt >nul && set /a LME_database=%LME_database%+1
-findstr /i "WagonsWithWeight.xlsx" changed_files.txt >nul && set /a WagonsWithWeight=%WagonsWithWeight%+1
-findstr /i "master_tabel_for_tracks.xlsx" changed_files.txt >nul && set /a trucks=%trucks%+1
-findstr /i "loaded.xlsx" changed_files.txt >nul && set /a waiting=%waiting%+1
+findstr /i "LME_database.json" changed_files.txt >nul && set /a LME_database=%LME_database%+1
+findstr /i "WagonsWithWeight.json" changed_files.txt >nul && set /a WagonsWithWeight=%WagonsWithWeight%+1
+findstr /i "master_tabel_for_tracks.json" changed_files.txt >nul && set /a trucks=%trucks%+1
+findstr /i "loaded.json" changed_files.txt >nul && set /a waiting=%waiting%+1
 
 del changed_files.txt
 
