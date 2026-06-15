@@ -1,5 +1,5 @@
-LME_database=21
-WagonsWithWeight=22
-trucks=12
-waiting=14
-forLoading=13
+LME_database=22
+WagonsWithWeight=23
+trucks=13
+waiting=15
+forLoading=14
