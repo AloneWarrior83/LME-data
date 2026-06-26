@@ -1,5 +1,5 @@
 LME_database=33
 WagonsWithWeight=35
-trucks=17
+trucks=18
 waiting=26
 forLoading=30
