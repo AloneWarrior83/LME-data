@@ -3,5 +3,5 @@ WagonsWithWeight=62
 trucks=20
 waiting=52
 forLoading=47
-BalanceCounter=1
+BalanceCounter=2
 BalanceOmomi=1
