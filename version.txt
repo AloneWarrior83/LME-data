@@ -4,4 +4,4 @@ trucks=27
 waiting=68
 forLoading=61
 BalanceCounter=14
-BalanceOmomi=14
+BalanceOmomi=15
