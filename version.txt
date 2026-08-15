@@ -1,7 +1,7 @@
 LME_database=97
 WagonsWithWeight=102
 trucks=29
-waiting=72
+waiting=73
 forLoading=69
 BalanceCounter=18
 BalanceOmomi=19
