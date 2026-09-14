@@ -11,6 +11,7 @@ findstr /i "loaded.json" changed_files.txt >nul && set /a waiting=%waiting%+1
 findstr /i "ForLoading.json" changed_files.txt >nul && set /a forLoading=%forLoading%+1
 findstr /i "BalanceCounter.json" changed_files.txt >nul && set /a BalanceCounter=%BalanceCounter%+1
 findstr /i "BalanceOmomi.json" changed_files.txt >nul && set /a BalanceOmomi=%BalanceOmomi%+1
+findstr /i "FinancialStatement.json" changed_files.txt >nul && set /a FinancialStatement=%FinancialStatement%+1
 del changed_files.txt
 :: Write new versions
 (
@@ -21,6 +22,7 @@ echo waiting=%waiting%
 echo forLoading=%forLoading%
 echo BalanceCounter=%BalanceCounter%
 echo BalanceOmomi=%BalanceOmomi%
+echo FinancialStatement=%FinancialStatement%
 )>version.txt
 git add .
 git commit -m "update v%LME_database%-%WagonsWithWeight%-%trucks%-%waiting%-%forLoading%-%BalanceCounter%-%BalanceOmomi%"
