@@ -3,6 +3,6 @@ WagonsWithWeight=177
 trucks=48
 waiting=121
 forLoading=122
-BalanceCounter=39
+BalanceCounter=40
 BalanceOmomi=44
 FinancialStatement=15
