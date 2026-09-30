@@ -5,4 +5,4 @@ waiting=127
 forLoading=126
 BalanceCounter=45
 BalanceOmomi=48
-FinancialStatement=20
+FinancialStatement=21
