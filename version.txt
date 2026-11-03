@@ -1,9 +1,9 @@
-LME_database=224
-WagonsWithWeight=228
-trucks=73
-waiting=166
-forLoading=159
-BalanceCounter=71
-BalanceOmomi=76
-FinancialStatement=89
+LME_database=225
+WagonsWithWeight=229
+trucks=74
+waiting=167
+forLoading=160
+BalanceCounter=72
+BalanceOmomi=77
+FinancialStatement=90
 HajiNadir=20
