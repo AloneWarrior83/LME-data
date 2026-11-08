@@ -6,4 +6,4 @@ forLoading=166
 BalanceCounter=76
 BalanceOmomi=82
 FinancialStatement=96
-HajiNadir=21
+HajiNadir=22
