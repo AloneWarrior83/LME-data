@@ -5,5 +5,5 @@ waiting=179
 forLoading=170
 BalanceCounter=78
 BalanceOmomi=86
-FinancialStatement=99
+FinancialStatement=100
 HajiNadir=23
