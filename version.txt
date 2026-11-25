@@ -4,6 +4,6 @@ trucks=80
 waiting=188
 forLoading=187
 BalanceCounter=90
-BalanceOmomi=100
+BalanceOmomi=101
 FinancialStatement=121
 HajiNadir=25
