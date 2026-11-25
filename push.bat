@@ -1,13 +1,6 @@
 @echo off
 cd "C:\Users\HAISB STORE\LME-data"
-:: Split big files into monthly parts (stops if anything is wrong)
-node split.js
-if errorlevel 1 (
-  echo.
-  echo SPLIT FAILED - nothing was pushed.
-  pause
-  exit /b 1
-)
+
 :: Read current versions
 for /f "tokens=1,2 delims==" %%a in (version.txt) do set %%a=%%b
 
